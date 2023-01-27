@@ -3,31 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro a, b
+		real F, C, soma
 	
-		escreva("DIGITE UM NÚMERO: ")
-		leia (a)
+		escreva("DIGITE A TEMPERATURA EM CELSIUS: ")
+		leia (C)
 
+		F=(9*C+160)/5
 
-		escreva("DIGITE OUTRO NÚMERO: ")
-		leia (b)
+		escreva ("A TEMPERATURA EM FAHRENHEIT É ", F)
+
 		
-		se (a > b)
-		{
-			escreva (a," É MAIOR QUE ", b)
-		}
-
-
-		senao se (b > a)
-		{
-			escreva (b," É MAIOR QUE ", a)
-		}
-
-		senao 
-
-		{
-			escreva ("OS DOIS NÚMEROS SÃO IGUAIS")
-		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 116; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
